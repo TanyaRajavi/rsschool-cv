@@ -1,5 +1,10 @@
 # Tatiana Strunina
 
+## Contact information:
+**E-mail:** tanyarajavi@gmail.com
+**Discord:** TanyaRajavi
+**GitHub:** [TanyaRajavi](https://github.com/TanyaRajavi)
+
 ## Summary
 My immediate goal is to get a lot of high-quality knowledge and skills in a short time.
 
