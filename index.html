@@ -1,13 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Document</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CV</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Hello World!</h1>
-</body>
+  <div class="container">
+    <header class="header"> 
+
+      <nav class="menu">
+        <ul class="menu_list">
+          <li class="menu_list_item">
+            <a class="item_link" href="#contacts">Contacts</a>
+          </li>
+          <li class="menu_list_item">
+            <a class="item_link" href="#summary">Summary</a>
+          </li>
+          <li class="menu_list_item">
+            <a class="item_link" href="#education">Education</a>
+          </li>
+          <li class="menu_list_item">
+            <a class="item_link" href="#skills">Skills</a>
+          </li>
+          <li class="menu_list_item">
+            <a class="item_link" href="#code example">Code example</a>
+          </li>
+          <li class="menu_list_item">
+            <a class="item_link" href="#projects">Projects</a>
+          </li>
+          <li class="menu_list_item">
+            <a class="item_link" href="#languages">Languages</a>
+          </li>
+        </ul>
+      </nav>
+
+      <section class="presentation">
+        <div class="container_photo">
+          <img class="photo" 
+             src="assets/images/avatar.jpg" 
+             alt="My photo">
+        </div>
+        <div class="name_vacancy">
+          <h1 class="name">tatiana   strunina<br></h1>
+          <span class="vacancy">junior front-end developer</span>
+          </span>
+        </div>
+      </section>
+    </header> 
+
+    <main class="information">
+      <section class="official_information">
+
+        <section class="official_info_article">
+          <h2 class="article_title official_title" id="contacts">contacts</h2>
+          <ul class="article_list">
+            <li class="article_list_item">
+              E-mail:
+              <a class="article_links" href="mailto:tanyarajavi@gmail.com"> tanyarajavi@gmail.com</a>
+            </li>
+            <li class="article_list_item">
+              GitHub:
+              <a class="article_links" href="https://github.com/TanyaRajavi"> TanyaRajavi</a>
+            </li>
+            <li class="article_list_item">
+              Telegram:
+              <a class="article_links" href="https://t.me/TanyaRajavi"> @TanyaRajavi</a>
+            </li>
+            <li class="article_list_item">
+              <p class="article_text">Russia, Moscow</p>
+              <p class="article_text">Georgia, Tbilisi</p>
+            </li>
+          </ul>
+        </section>
+  
+        <section class="official_info_article">
+          <h2 class="article_title official_title" id="education">education</h2>
+          <p class="article_text">State Pedagogical University</p>
+          <p class="article_text"><i>Faculty of Mathematics</i></p>
+        </section>
+
+        <section class="official_info_article">
+          <h2 class="article_title official_title" id="skills">skills</h2>
+          <h3 class="skills_title">hard skills</h3>
+          <ul class="skills_list">
+            <li class="skills_list_item">
+              <p class="article_text"><b>Web-development:</b> JS, CSS, HTML</p>
+            </li>
+            <li class="skills_list_item">
+              <p class="article_text" ><b>Version control:</b> GIT, Github</p>
+            </li>
+            <li class="skills_list_item">
+              <p class="article_text"><b>Graphics:</b> Figma</p>
+            </li>
+          </ul>       
+          <h3 class="skills_title">soft skills</h3>
+          <ul class="skills_list">
+            <li class="skills_list_item">
+              <p class="article_text">Self-Motivation</p>
+            </li>
+            <li class="skills_list_item">
+              <p class="article_text">Teamwork</p>
+            </li>
+            <li class="skills_list_item">
+              <p class="article_text">Flexibility</p>
+            </li>
+          </ul>
+        </section>
+      </section>
+  
+      <section class="additional_information">
+
+        <section class="additional_info_article">
+          <h2 class="article_title additional_title" id="summary">summary</h2>
+          <p class="article_text">
+            My immediate goal is to get a lot of high-quality knowledge and skills in a short time.
+          </p>
+        </section>
+
+        <section class="additional_info_article">
+          <h2 class="article_title additional_title" id="code example">code example:</h2>
+          <p class="article_text">
+            <b>Task:</b> Finish the solution so that it returns the sum of all the multiples of 3 or 5 below the number passed in. Additionally, if the number is negative, return 0 (for languages that do have them). <i>Note:</i> If the number is a multiple of both 3 and 5, only count it once.
+          </p>
+          <pre>
+            <code>
+              function solution(number){
+                let sum = 0;
+                
+                if (number < 0) {
+                  return sum;
+                }
+                
+                for (let i = 1; i < number; i++) {
+                  if (i % 3 === 0 || i % 5 === 0) {
+                    sum += i;
+                  }
+                }
+                 return sum;
+              }
+            </code>
+          </pre>         
+        </section>
+  
+        <section class="additional_info_article">
+          <h2 class="article_title additional_title" id="projects">projects</h2>
+          <a class="article_links" href="#0"><b>My cv</b></a>
+        </section>
+
+        <section class="additional_info_article">
+          <h2 class="article_title additional_title" id="languages">languages</h2>
+          <ul class="languages_list">
+            <li class="languages_list_item">
+              <p class="article_text">Russian</p>
+            </li>
+            <li class="languages_list_item">
+              <p class="article_text">English - A2</p>
+            </li>
+          </ul>
+        </section>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer_container">
+        <div class="footer_copyright">
+          <p class="copyright">© 2022 </p>
+          <a class="footer_link" href="https://github.com/TanyaRajavi" >TanyaRajavi</a>
+        </div>
+        <div class="footer_rs">  
+          <a class="footer_link_rs" href="https://rs.school/js/"></a>
+        </div>
+      </div>  
+    </footer>
+
+  </div>
+</body> 
 </html>
+
+ 
