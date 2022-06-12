@@ -6,7 +6,7 @@
 	<title>CV</title>
 	<link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body> 
   <div class="container">
     <header class="header"> 
 
@@ -25,7 +25,7 @@
             <a class="item_link" href="#skills">Skills</a>
           </li>
           <li class="menu_list_item">
-            <a class="item_link" href="#code example">Code example</a>
+            <a class="item_link" href="#code_example">Code example</a>
           </li>
           <li class="menu_list_item">
             <a class="item_link" href="#projects">Projects</a>
@@ -39,20 +39,19 @@
       <section class="presentation">
         <div class="container_photo">
           <img class="photo" 
-             src="assets/images/avatar.jpg" 
+             src="./assets/images/avatar.jpg" 
              alt="My photo">
         </div>
         <div class="name_vacancy">
-          <h1 class="name">tatiana   strunina<br></h1>
+          <h1 class="name">tatiana   strunina</h1>
           <span class="vacancy">junior front-end developer</span>
-          </span>
         </div>
       </section>
     </header> 
 
     <main class="information">
-      <section class="official_information">
-
+      <div class="official_information">
+    
         <section class="official_info_article">
           <h2 class="article_title official_title" id="contacts">contacts</h2>
           <ul class="article_list">
@@ -108,10 +107,10 @@
             </li>
           </ul>
         </section>
-      </section>
+      </div>
   
-      <section class="additional_information">
-
+    
+      <div  class="additional_information"> 
         <section class="additional_info_article">
           <h2 class="article_title additional_title" id="summary">summary</h2>
           <p class="article_text">
@@ -120,28 +119,15 @@
         </section>
 
         <section class="additional_info_article">
-          <h2 class="article_title additional_title" id="code example">code example:</h2>
+          <h2 class="article_title additional_title" id="code_example">code example:</h2>
           <p class="article_text">
-            <b>Task:</b> Finish the solution so that it returns the sum of all the multiples of 3 or 5 below the number passed in. Additionally, if the number is negative, return 0 (for languages that do have them). <i>Note:</i> If the number is a multiple of both 3 and 5, only count it once.
+            <b>Task:</b> This code does not execute properly. Try to figure out why.
           </p>
-          <pre>
-            <code>
-              function solution(number){
-                let sum = 0;
-                
-                if (number < 0) {
-                  return sum;
-                }
-                
-                for (let i = 1; i < number; i++) {
-                  if (i % 3 === 0 || i % 5 === 0) {
-                    sum += i;
-                  }
-                }
-                 return sum;
-              }
-            </code>
-          </pre>         
+          <pre>       
+            function multiply(a, b){
+              return a * b
+             }          
+          </pre>      
         </section>
   
         <section class="additional_info_article">
@@ -160,7 +146,9 @@
             </li>
           </ul>
         </section>
-      </section>
+      </div>
+        
+      
     </main>
 
     <footer class="footer">
@@ -176,7 +164,7 @@
     </footer>
 
   </div>
-</body> 
+</body>
 </html>
 
  
