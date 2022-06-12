@@ -239,10 +239,6 @@ a:hover {
 
 .footer_link_rs {
   width: 100px;
-  height: 40px; 
-  background-image: url("assets/svg/rs_school_js.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 
 .footer_link_rs:hover {
