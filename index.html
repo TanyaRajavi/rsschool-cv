@@ -114,25 +114,34 @@
         <section class="additional_info_article">
           <h2 class="article_title additional_title" id="summary">summary</h2>
           <p class="article_text">
-            My immediate goal is to get a lot of high-quality knowledge and skills in a short time.
+            Programming for me is a huge and exciting world. I am happy to dive into it. My immediate goal is to get a lot of high-quality knowledge and skills in a short time.
+In the future, I would be glad to get practical experience under the guidance of an experienced developer.
           </p>
         </section>
 
         <section class="additional_info_article">
-          <h2 class="article_title additional_title" id="code_example">code example:</h2>
+          <h2 class="article_title additional_title" id="code_example">code example</h2>
           <p class="article_text">
-            <b>Task:</b> This code does not execute properly. Try to figure out why.
+            <b>Task:</b> Write a method, that will get an integer array as parameter and will process every number from this array. Return a new array with processing every number of the input-array like this: If the number has an integer square root, take this, otherwise square the number. <i>Notes:</i>
+            The input array will always contain only positive numbers, and will never be empty or null.
           </p>
           <pre>       
-            function multiply(a, b){
-              return a * b
-             }          
+            function squareOrSquareRoot(array) {
+              array.forEach((item, idx) => {
+                if (Number.isInteger(Math.sqrt(item))) {
+                  array[idx] = Math.sqrt(item);
+                } else {
+                  array[idx] *= array[idx];
+                };
+              });
+              return array;  
+            }
           </pre>      
         </section>
   
         <section class="additional_info_article">
           <h2 class="article_title additional_title" id="projects">projects</h2>
-          <a class="article_links" href="#0"><b>My cv</b></a>
+          <a class="article_links" href="https://TanyaRajavi.github.io/rsschool-cv/"><b>My cv</b></a>
         </section>
 
         <section class="additional_info_article">
